@@ -5,8 +5,8 @@ from pybit.unified_trading import HTTP
 from ta.momentum import RSIIndicator
 from datetime import datetime
 
-API_KEY = os.environ.get("H92kWmDZQEFz9g8bF7")
-API_SECRET = os.environ.get("xGqbEowAL9eesGyxRjkRarm2IBICDvt6L00Y")
+API_KEY = os.environ.get("API_KEY")
+API_SECRET = os.environ.get("API_SECRET")
 TESTNET = os.environ.get("TESTNET", "true").lower() == "true"
 
 session = HTTP(
